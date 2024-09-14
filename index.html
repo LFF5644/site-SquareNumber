@@ -1,0 +1,30 @@
+<?
+	const path="/p/SquareNumber/"
+	const {
+		importHead,
+	}=globals.functions;
+
+?><!DOCTYPE html>
+<html lang=de>
+<head>
+	<?=importHead({
+		input,
+		title: "Quadratzahlen üben",
+		tabs: 1,
+		css:[
+			"/css/main.css",
+			path+"style.css",
+		],
+		script:[
+			"https://cdn.jsdelivr.net/gh/L3P3/lui@v2.x/"+(input.dev&&!input.legacy?"lui.dev.js":"lui.js"),
+		],
+		scriptLegacy:[
+			"/files/other/lui/lui.legacy.js",
+		],
+	})?>
+</head>
+<body>
+	<h1>Lade...</h1>
+	<script src="<?=path?>app.js" defer></script>
+</body>
+</html>
