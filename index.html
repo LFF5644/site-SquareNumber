@@ -10,11 +10,15 @@
 	<?=importHead({
 		input,
 		title: "Quadratzahlen üben",
+		manifest: path+"manifest.json",
 		tabs: 1,
 		css:[
 			"/css/main.css",
 			path+"style.css",
 		],
+		icons:{
+			"512x512":"https://cdn-icons-png.flaticon.com/512/2896/2896645.png",
+		},
 		script:[
 			"https://cdn.jsdelivr.net/gh/L3P3/lui@v2.x/"+(input.dev&&!input.legacy?"lui.dev.js":"lui.js"),
 		],

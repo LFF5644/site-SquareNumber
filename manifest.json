@@ -1,0 +1,18 @@
+{
+	"name":"Quadrat-Zahlen üben",
+	"description":"Schnell Quadrat-Zahlen üben für unterwegs",
+	"short_name":"Quadratzahlen",
+	"icons":[
+		{
+			"sizes":"512x512 any",
+			"type": "image/png",
+			"src":"https://cdn-icons-png.flaticon.com/512/2896/2896645.png"
+		}
+	],
+	"scope":"/SquareNumber/",
+	"start_url":"/SquareNumber/?type=app",
+	"id":"/SquareNumber/?type=app",
+	"display":"standalone",
+	"theme_color": "#103",
+	"background_color":"#103"
+}
